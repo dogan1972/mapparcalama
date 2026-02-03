@@ -25,8 +25,7 @@ class Govde extends StatelessWidget {
   Widget build(BuildContext context) {
     Personel.listeCoz(personeller);
     Personel.mapCoz(yeniMap);
-    debugPrint(maptenGelenListe[0].toString());
 
-    return Center(child: Text(maptenGelenListe.toString()));
+    return Center(child: Text(maptenGelenListe[0].toString()));
   }
 }
